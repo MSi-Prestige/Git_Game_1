@@ -9,6 +9,9 @@ public class ArraysListTest1 {
         myList.add(s);
         ArraysListTest1 b = new ArraysListTest1();
         myList.add(b);
+        myList.add(b);
+        myList.add(b);
+        myList.add(s);
         int theSize = myList.size();            //2
         System.out.println(theSize);           //2
         boolean isIn = myList.contains(s);    //true
